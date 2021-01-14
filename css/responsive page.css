@@ -229,3 +229,25 @@ body {
     border-radius: 10px;
 
 }
+
+.call .call-icon {
+    border-radius: 10px;
+    box-shadow: -5px 4px 7px skyblue;
+}
+
+.jacket-card :hover {
+    background-color: saddlebrown;
+    border-radius: 10px;
+    color: rgb(203, 202, 209);
+
+    text-align: justify;
+}
+
+.jacket-card button:hover {
+    background-color: silver;
+    border-radius: 10px;
+}
+
+.jacket-card .card1:hover {
+    box-shadow: 6px 5px 10px steelblue;
+}
