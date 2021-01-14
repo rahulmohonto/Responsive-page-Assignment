@@ -1,0 +1,231 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.logo-content {
+    width: 90%;
+    height: 50px;
+}
+
+.top {
+    height: 730px;
+    background-color: rgba(255, 251, 240, 1);
+    border-radius: 10px;
+}
+
+.nav-section1 {
+    background-color: wheat;
+}
+
+.nav-holder {
+    height: 4.4rem;
+    border-radius: 15px;
+
+}
+
+.nav-collumn2 {
+    float: right;
+    text-align: center;
+}
+
+.link-one {
+    text-align: center;
+}
+
+.upper {
+    background-color: rgb(31, 92, 92);
+    height: 3rem;
+    border-radius: 10px;
+}
+
+
+.intro-section {
+    margin-top: 100px;
+}
+
+.buy {
+    background-color: olivedrab;
+    width: 12rem;
+    font-weight: 700;
+    text-align: right;
+    border-radius: 10px;
+}
+
+.shopping-cart {
+    height: 1.5rem;
+    width: 2.4rem;
+    margin-right: 1rem;
+    justify-content: center;
+}
+
+.head-text {
+    color: orange;
+    font-weight: 770;
+}
+
+.head-text2 {
+    color: rgb(58, 54, 47);
+    font-weight: 750;
+}
+
+.top-text {
+    margin-top: 5.5rem;
+    margin-left: 1rem;
+    padding-left: 4rem;
+}
+
+.second-column img {
+    height: 600px;
+    width: 90%;
+    padding-right: 4rem;
+}
+
+
+
+.jacket-card {
+    border: 0;
+    box-shadow: 10px 10px 20px rgb(202, 178, 178);
+    border-radius: 15px;
+
+}
+
+.footer-extra {
+    border: 0;
+    border-radius: 15px !important;
+
+    background-color: white;
+}
+
+.jacket-card .card1 {
+    height: 330px;
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 3.5%;
+    margin-right: 5%;
+    background-color: rgb(224, 176, 224) !important;
+    box-shadow: 3px -3px 5px rgb(216, 205, 216);
+    border-radius: 10px;
+
+}
+
+.jacket1 {
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(56, 65, 65);
+}
+
+.card-header1 {
+    margin-top: 15rem;
+    margin-bottom: 5rem;
+}
+
+@media(max-width:568px) {
+    .card-header1 {
+        text-align: center;
+    }
+}
+
+@media(max-width:568px) {
+    .card-holder {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+}
+
+.buying-section {
+    margin-top: 150px;
+
+    border-radius: 15px;
+
+}
+
+@media(max-width:568px) {
+
+    .buying-section {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+    }
+}
+
+@media(max-width:568px) {
+    .checking-child {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+.checking1 {
+    height: 170px;
+    width: 550px;
+    border-radius: 10px;
+    box-shadow: 5px 7px 10px whitesmoke;
+    margin-bottom: 10px;
+
+}
+
+.checking-img1 img {
+    height: 100px;
+    width: 130px;
+    padding-left: 20px;
+}
+
+.checking-side {
+    color: rgb(54, 45, 54);
+    margin-left: 20px;
+    padding-left: 8px;
+    text-align: justify;
+    padding-right: 50px;
+
+
+}
+
+.checking-img2 img {
+    height: 100px;
+    width: 164px;
+    padding-left: 20px;
+}
+
+.checking-last img {
+    height: 380px;
+    width: 600px;
+}
+
+.facebook-link {
+    text-decoration: none;
+    color: rgb(135, 150, 143);
+    font-size: 2rem;
+}
+
+
+.footer-copyright {
+    text-align: center;
+    margin-top: 120px;
+}
+
+.contact1 {
+    background-color: powderblue;
+    height: 500px;
+    margin-top: 250px;
+    margin-bottom: 80px;
+    border-radius: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+
+}
+
+.contact1 img {
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+}
+
+.form-check button {
+    background-image: linear-gradient(45deg, rgb(150, 93, 93), teal);
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
